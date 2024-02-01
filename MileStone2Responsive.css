@@ -1,0 +1,28 @@
+@media print {
+    .screen_only{
+        display: none;
+    }
+}
+
+
+@media (max-width: 640px){
+    body {
+        background-color: rgb(225, 239, 68);
+    }
+
+    h1{
+        background-color: green;
+    }
+}
+
+@media (min-width: 769px){
+    body {
+        background-color: white;
+    }
+}
+
+@media (max-width:640px) {
+    .title {
+        background-color: rgb(225, 239, 68);
+    }
+}

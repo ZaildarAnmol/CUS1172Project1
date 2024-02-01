@@ -1,0 +1,31 @@
+.table_layout>table { 
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.table_layout>table th, • box_table>table td {
+        border: 1px solid green;
+        padding: 5px;
+        text-align: center;
+}
+    
+.table_layout>table th {
+    background-color: lightgrey;
+}
+
+/* specifying different color for event rows */
+
+.table_layout>table tr:nth-child(even) { 
+    background-color: rgb(178, 85, 155);
+}
+
+.table_layout>table tr:nth-child(odd) { 
+    background-color: lightpink;
+}
+
+.table_layout>table tr:hover {
+    background-color: chocolate;
+}
